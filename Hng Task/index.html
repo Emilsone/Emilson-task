@@ -1,0 +1,134 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="lawson.css">
+</head>
+
+<body>
+    <div class="division">
+        <div class="card">
+            <center><img src="law.jpg" id="law"></center>
+            <h1 id="lawson">EZEKIEL MICHAEL LAWSON</h1>
+            <center>
+                <h2 id="my">PERSONAL DETAILS</h2>
+            </center>
+            <hr id="line">
+            <h5 id="head"> SURNAME : LAWSON </h5>
+            <h5 id="first">FIRST NAME : EZEKIEL </h5>
+            <h5 id="dob"> DOB : 03-08-2001 </h5>
+            <h5 id="marital"> MARITAL STATUS : SINGLE</h5>
+        </div>
+        <div class="card1">
+            <h1 id="profile">PROFILE</h1>
+            <hr id="line1">
+            <P id="jun">A junior programmer with a wide range of interest and aspiring knowledge in other feilds of
+                programming
+                which
+                includes Machine learning, robotics, game development, and software development.
+                I got into programming just recently and in that medium i have found myself excelling in it and also got
+                on
+                well with other programmers at all lcevels.
+            </P>
+            <h1 id="skill">SKILLS</h1>
+            <hr id="line1">
+            <ul id="ul">
+                <h3>
+                    <li>Programming</li>
+                </h3>
+                <h3>
+                    <li>Attention to details</li>
+                </h3>
+                <h3>
+                    <li>Team work</li>
+                </h3>
+                <h3>
+                    <li>Soft and Generic</li>
+                </h3>
+                <h3>
+                    <li>Computer Science</li>
+                </h3>
+
+            </ul>
+            <h1 id="edu">EDUCATION</h1>
+            <hr id="line1">
+            <ul id="primary">
+                <h3>
+                    <li>Primary scchool-Zion kids academy(2005-2012)</li>
+                </h3>
+                <h3>
+                    <li>Secondary school-Saint Mary Senior Science College(2012-2018)</li>
+                </h3>
+            </ul>
+            <h1 id="exp">EXPERIENCE</h1>
+            <hr id="line1">
+            <ul id="work">
+                <h3>
+                    <li>Working as in intern</li>
+                </h3>
+            </ul>
+            <br><br>
+            <br>
+            <div class="card3">
+                <div class="team1">
+                    <img src="1.jpg" id="image">
+                    <strong>
+                        <h1 id="contact">Contact Me</h1>
+                    </strong>
+                    <p id="feel">Feel free to drop me a line below!</p>
+                    <hr>
+                </div>
+                <div class="team2">
+                    <div class="form">
+                        <h1 id="full">Full Name :</h1><br>
+                        <input type="text" placeholder=" Enter full name" class="p" required>
+                        <hr id="line4">
+
+                    </div>
+                    <div class="form">
+                        <h1 id="full">Email :</h1><br>
+                        <input type="text" placeholder=" Enter email" class="p" required>
+                        <hr id="line5">
+                    </div>
+                    <div class="form">
+                        <div class="form">
+                            <h1 id="full">Password :</h1><br>
+                            <input type="text" placeholder=" Enter email" type="number" class="p" :required>
+                            <hr id="line5">
+                        </div>
+                    </div>
+                    <div class="form">
+                        <div class="form">
+                            <h1 id="full">Message :</h1><br>
+                            <input type="text" placeholder=" Enter email" maxlength="20" class="p2">
+                            <hr id="line5">
+                        </div>
+                    </div>
+                    <div class="sign">
+                        <button type="submit" class="form-control" class="button" name="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class=" cloudinary link">
+        <img src="https://res.cloudinary.com/emilson/image/upload/v1566564130/858a453ee773a9865c87b905ade02267_ffr6li.jpg">
+    </div> -->
+
+
+
+
+    <script>
+        function validateForm() {
+            var x = document.forms["team2"]["fname"].value;
+            if (x == null || x == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+        }
+    </script>
+</body>
+
+</html>

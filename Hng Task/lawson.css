@@ -1,0 +1,206 @@
+.division{
+    display: grid;
+    grid-template-columns: 330px 330px;
+}
+.card{
+    width: 270px;
+    height: 530px;
+    background-color: white;
+    margin-left: 50px;
+    box-shadow: 0px 0px 9px 9px whitesmoke;
+}
+.card1{
+    width: 690px;
+    height: 1100px;
+    background-color: rgb(46, 45, 45);
+    box-shadow: 0px 0px 12px 20px whitesmoke;
+}
+#lawson{
+    font-size: 15px;
+    margin-top: 40px;
+    text-align: center;
+}
+#law{
+    width: 105px;
+    height:105px;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(143, 139, 139);
+    
+}
+#my{
+    font-size: 21px;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(95, 94, 94);
+}
+#head{
+    font-size: 16px;
+    margin-left: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#first{
+    font-size: 16px;
+    margin-left: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#dob{
+    font-size: 16px;
+    margin-left: 25px;
+}
+#marital{
+    font-size: 16px;
+    margin-left: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+#line{
+    height: 1px;
+    background-color: green;
+}
+#profile{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(133, 248, 133);
+    opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#jun{
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#skill{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(133, 248, 133);
+    opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */ 
+}
+#ul{
+    margin-left: px;
+    color: whitesmoke;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#edu{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(133, 248, 133);
+    opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */   
+}
+#primary{
+    margin-left: px;
+    color: whitesmoke;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#exp{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(133, 248, 133);
+    opacity: 0.7;
+    filter: alpha(opacity=40); /* For IE8 and earlier */    
+}
+#work{
+    margin-left: px;
+    color: whitesmoke;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+#line1{
+    width: 670px;
+    margin-left: 20px;
+}
+.card3{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    margin-left: 110px;
+}
+#image{
+    width: 500px;
+    height: 150px;
+    /* opacity: 0.8; */
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#contact{
+    font-size: 20px;
+    font-family: 'Merienda';
+    margin-top: -80px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    
+}
+#feel{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -14px;
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+    
+}
+#full{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(117, 116, 116);
+    padding-top: 19px;
+    margin-left: 30px;
+}
+.p{
+    border-style: hidden;
+    background-color: white;
+    margin-left:150px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    outline-color: transparent;
+    margin-top: -48px;
+}
+#line4{
+    width: 290px;
+    margin-top: -25px;
+    margin-left: 152px;
+    background-color: whitesmoke;
+}
+#line5{
+   width: 290px;
+    margin-top: -25px;
+    margin-left: 152px;
+    background-color: whitesmoke;  
+}
+.p2{
+    border-style: hidden;
+    background-color: white;
+    margin-left:150px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    outline-color: transparent;
+    margin-top: -48px;
+}
+.button{
+    display: block;
+    background-color:#3ac53a;
+    font-size: 15px;
+    border-radius: 9px;
+    text-decoration: none;
+    height: 26px;
+    text-align: center;
+    color:white;
+    width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 4px gray ;
+    padding-top: 11px; 
+    /* margin-top: 100px */
+    margin-left: 150px;
+    opacity: 0.9;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.button:hover{
+    background-color:whitesmoke;
+    color: green;
+    border: 1px solid green;
+}
